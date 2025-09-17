@@ -55,7 +55,6 @@ class EmployeeTypeTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         employeeType = EmployeeType.allCases[indexPath.row]
-        print("👉 Selected type: \(employeeType!.description)")
         for cell in tableView.visibleCells {
             cell.accessoryType = .none
         }

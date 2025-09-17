@@ -98,7 +98,6 @@ class EmployeeDetailTableViewController: UITableViewController, UITextFieldDeleg
     }
     
     @IBSegueAction func showEmployeeTypes(_ coder: NSCoder) -> EmployeeTypeTableViewController? {
-        print("✅ showEmployeeTypes called")
         let controller = EmployeeTypeTableViewController(coder: coder)
         controller?.delegate = self
         controller?.employeeType = employeeType
