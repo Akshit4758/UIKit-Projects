@@ -53,7 +53,7 @@ class EmojiCollectionViewController: UICollectionViewController {
                     case .grid:
                         self.layoutButton.image = UIImage(systemName: "rectangle.grid.1x2")
                     case .column:
-                        self.layoutButton.image = UIImage(systemName: "square.grid.2x2.reverse")
+                        self.layoutButton.image = UIImage(systemName: "square.grid.2x2")
                     }
                 }
             }
